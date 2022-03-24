@@ -12,6 +12,7 @@ export class AppComponent {
     { title: 'Administradores', url: '/administradores', icon: 'people-circle' },
     { title: 'Discord', url: '/discord', icon: '' },
     { title: 'Configurações', url: '/configuracao', icon:'settings'},
+    { title: 'Configurações', url: '/configuracao', icon:'settings'},
     
   ];
 
