@@ -41,6 +41,14 @@ const routes: Routes = [
   },  {
     path: 'navegacao2',
     loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
+  },
+  {
+    path: 'suporte',
+    loadChildren: () => import('./pages/suporte/suporte.module').then( m => m.SuportePageModule)
+  },
+  {
+    path: 'redes-sociais',
+    loadChildren: () => import('./pages/redes-sociais/redes-sociais.module').then( m => m.RedesSociaisPageModule)
   }
 
 ];
