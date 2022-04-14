@@ -38,7 +38,11 @@ const routes: Routes = [
   {
     path: 'configuracao',
     loadChildren: () => import('./pages/configuracao/configuracao.module').then( m => m.ConfiguracaoPageModule)
+  },  {
+    path: 'navegacao2',
+    loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   }
+
 ];
 
 @NgModule({
