@@ -16,8 +16,8 @@ export class AppComponent {
     { title: 'Configurações', url: '/configuracao', icon:'settings'},
     { title: 'Navegação', url: '/navegacao', icon:'code'},
     { title: 'Navegação 2', url: '/navegacao2', icon:'code'},
-    { title: 'Suporte', url: '/suporte', icon:'code'}
-    { title: 'Redes sociais', url: '/redesSociais', icon:'code'}
+    { title: 'Suporte', url: '/suporte', icon:'headset'}
+    { title: 'Redes sociais', url: '/redesSociais', icon:'earth'}
     
   ];
   

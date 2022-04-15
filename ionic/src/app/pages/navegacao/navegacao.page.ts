@@ -14,7 +14,7 @@ export class NavegacaoPage implements OnInit {
   }
 
   showPageNavegacao2(){
-    this.navController.navigateForward('Navegação 2')
+    this.navController.navigateForward('navegacao2')
   }
 
 }

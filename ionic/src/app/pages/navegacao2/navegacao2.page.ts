@@ -13,8 +13,8 @@ export class Navegacao2Page implements OnInit {
   ngOnInit() {
   }
 
-  showPageNavegacao1(){
-    this.navController.navigateForward('Navegação1')
+  showPageNavegacao(){
+    this.navController.navigateForward('navegacao')
   }
 
 }
