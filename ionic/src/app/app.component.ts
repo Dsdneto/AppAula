@@ -16,8 +16,14 @@ export class AppComponent {
     { title: 'Configurações', url: '/configuracao', icon:'settings'},
     { title: 'Navegação', url: '/navegacao', icon:'code'},
     { title: 'Navegação 2', url: '/navegacao2', icon:'code'},
-    { title: 'Suporte', url: '/suporte', icon:'headset'}
-    { title: 'Redes sociais', url: '/redesSociais', icon:'earth'}
+    { title: 'Suporte', url: '/suporte', icon:'headset'},
+    { title: 'Redes sociais', url: '/redesSociais', icon:'earth'},
+    { title: 'Botões', url: '/botao', icon:'construct'},
+    { title: 'Botão1', url: '/botao/botao1', icon:'construct'},
+    { title: 'Botão2', url: '/botao/botao2', icon:'construct'},
+    { title: 'Botão3', url: '/botao/botao3', icon:'construct'},
+    { title: 'Botão4', url: '/botao/botao4', icon:'construct'},
+    { title: 'Botão5', url: '/botao/botao5', icon:'construct'},
     
   ];
   

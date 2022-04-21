@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'folder/Inbox',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -38,7 +38,8 @@ const routes: Routes = [
   {
     path: 'configuracao',
     loadChildren: () => import('./pages/configuracao/configuracao.module').then( m => m.ConfiguracaoPageModule)
-  },  {
+  },
+  {
     path: 'navegacao2',
     loadChildren: () => import('./pages/navegacao2/navegacao2.module').then( m => m.Navegacao2PageModule)
   },
@@ -49,6 +50,14 @@ const routes: Routes = [
   {
     path: 'redes-sociais',
     loadChildren: () => import('./pages/redes-sociais/redes-sociais.module').then( m => m.RedesSociaisPageModule)
+  },
+  {
+    path: 'botao',
+    loadChildren: () => import('./pages/botao/botao.module').then( m => m.BotaoPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
   }
 
 ];
