@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Pagina de alerta</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-button expand="block" color="secondary" (click)="AlertConfirm()">Alerta com Confirmação</ion-button>
+<ion-button expand="block" color="primary" (click)="AlertPrompt()">Alerta com CLI</ion-button>
+<ion-button expand="block" color="warning" (click)="AlertRadio()">Alerta Radio</ion-button>
+</ion-content>

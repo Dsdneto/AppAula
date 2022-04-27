@@ -24,6 +24,12 @@ export class AppComponent {
     { title: 'Botão3', url: '/botao/botao3', icon:'construct'},
     { title: 'Botão4', url: '/botao/botao4', icon:'construct'},
     { title: 'Botão5', url: '/botao/botao5', icon:'construct'},
+    { title: 'Alerta', url: '/alert', icon:'alert-circle'},
+    { title: 'Action Sheet', url: '/actionsheet', icon:'alert'},
+    { title: 'Badge', url: '/badge', icon:'list'},
+    { title: 'Pagina de Alertas', url: '/pagina-alertas', icon:'alert-circle'},
+    { title: 'Pagina de Action Sheet', url: '/pagina-action-sheet', icon:'alert'},
+    { title: 'Pagina de Badge', url: '/pagina-badge', icon:'list'},
     
   ];
   
