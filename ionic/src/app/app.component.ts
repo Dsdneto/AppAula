@@ -30,7 +30,10 @@ export class AppComponent {
     { title: 'Pagina de Alertas', url: '/pagina-alertas', icon:'alert-circle'},
     { title: 'Pagina de Action Sheet', url: '/pagina-action-sheet', icon:'alert'},
     { title: 'Pagina de Badge', url: '/pagina-badge', icon:'list'},
-    
+    { title: 'Card', url: '/card', icon:'newspaper'},
+    { title: 'Checkbox', url: '/checkbox', icon:'checkbox'}, 
+    { title: 'Checkbox de Item', url: '/checkitem', icon:'checkbox'}, 
+    { title: 'Checkbox Cursos SLE', url: '/checkcurso', icon:'checkbox'}, 
   ];
   
 

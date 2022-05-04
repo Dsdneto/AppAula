@@ -58,7 +58,8 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
-  },  {
+  },
+  {
     path: 'alert',
     loadChildren: () => import('./pages/alert/alert.module').then( m => m.AlertPageModule)
   },
@@ -81,7 +82,23 @@ const routes: Routes = [
   {
     path: 'pagina-badge',
     loadChildren: () => import('./pages/pagina-badge/pagina-badge.module').then( m => m.PaginaBadgePageModule)
+  },
+  {
+    path: 'card',
+    loadChildren: () => import('./pages/card/card.module').then( m => m.CardPageModule)
+  },
+  {
+    path: 'checkbox',
+    loadChildren: () => import('./pages/checkbox/checkbox.module').then( m => m.CheckboxPageModule)
+  },  {
+    path: 'checkitem',
+    loadChildren: () => import('./pages/checkitem/checkitem.module').then( m => m.CheckitemPageModule)
+  },
+  {
+    path: 'checkcurso',
+    loadChildren: () => import('./pages/checkcurso/checkcurso.module').then( m => m.CheckcursoPageModule)
   }
+
 
 
 ];
