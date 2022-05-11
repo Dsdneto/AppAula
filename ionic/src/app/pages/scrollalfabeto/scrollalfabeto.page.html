@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-title>Scroll Alfabeto</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let numero of numeros | slice:0:liomite">
+      <ion-label color="dark"d></ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

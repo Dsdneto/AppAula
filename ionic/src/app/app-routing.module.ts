@@ -97,6 +97,22 @@ const routes: Routes = [
   {
     path: 'checkcurso',
     loadChildren: () => import('./pages/checkcurso/checkcurso.module').then( m => m.CheckcursoPageModule)
+  },
+  {
+    path: 'input',
+    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+  },
+  {
+    path: 'datetime',
+    loadChildren: () => import('./pages/datetime/datetime.module').then( m => m.DatetimePageModule)
+  },
+  {
+    path: 'formulario',
+    loadChildren: () => import('./pages/formulario/formulario.module').then( m => m.FormularioPageModule)
+  },
+  {
+    path: 'scrollalfabeto',
+    loadChildren: () => import('./pages/scrollalfabeto/scrollalfabeto.module').then( m => m.ScrollalfabetoPageModule)
   }
 
 

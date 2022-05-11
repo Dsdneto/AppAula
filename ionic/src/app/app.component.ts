@@ -33,9 +33,15 @@ export class AppComponent {
     { title: 'Card', url: '/card', icon:'newspaper'},
     { title: 'Checkbox', url: '/checkbox', icon:'checkbox'}, 
     { title: 'Checkbox de Item', url: '/checkitem', icon:'checkbox'}, 
-    { title: 'Checkbox Cursos SLE', url: '/checkcurso', icon:'checkbox'}, 
+    { title: 'Checkbox Cursos SLE', url: '/checkcurso', icon:'checkbox'},
+    { title: 'Formulario', url: '/formulario', icon:'document-text'}, 
+    { title: 'DateTime', url: '/datetime', icon:'timer'}, 
+    { title: 'scrollalfabeto', url: '/scrollalfabeto', icon:'infinite'}, 
+
+    
   ];
   
+ 
 
   public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
   constructor() {}
